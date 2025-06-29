@@ -20,7 +20,7 @@ const PaginationContent = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <ul
     ref={ref}
-    className={cn("mx-auto flex w-full justify-between flex-row items-center gap-1", className)}
+    className={cn("mx-auto flex sm:w-max justify-between flex-row items-center gap-1", className)}
     {...props}
   />
 ))
