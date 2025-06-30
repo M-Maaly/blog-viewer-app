@@ -118,7 +118,7 @@ export function FeaturedPosts({ posts }: FeaturedPostsProps) {
 
                     {/* Content */}
                     <div className="flex-1 min-w-0 space-y-2 p-4">
-                      <div className="flex items-center text-purple-700 gap-2 text-xs text-muted-foreground">
+                      <div className="flex items-center text-purple-700 gap-2 text-[0.58rem] text-muted-foreground">
                         <span className="font-normal ">{post.authorName}</span>
                         <span className="font-black">•</span>
                         <span>{post.date}</span>
